@@ -37,7 +37,12 @@ h1{
 .linktopage{
     margin: 20px;
     font-size: 15px;
-    flex-direction: row;
+    text-align: center;
+    margin: 5 auto;
+    display: inline-block;
+    align-items: center; 
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h2{
@@ -47,9 +52,16 @@ h2{
     text-align: center;
 }
 
+.famtree{
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
 .imagesource{
-    text-align: left;
-    font-size: 12px;
+    text-align: center;
+    font-size: 10px;
     color: black;
     margin: 0px 50px 0px;
 }
@@ -72,7 +84,6 @@ h2{
     border: 200px;
     padding: 10px;
     margin: 20px;
-
 }
 
 h3{
@@ -119,10 +130,10 @@ a{
     width: 50%;
    }
    
-   .Column2 {
-      float: right;
-      width: 50%;
-   }
+.Column2 {
+    float: right;
+    width: 50%;
+}
 
 .flex-container{
     display: flex;
@@ -233,8 +244,9 @@ footer{
     background-color: rgb(189, 218, 189);
     margin: 10px 20px;
     border: 2px;
-    padding: 20px;
+    padding: 10px;
     content: 80%;
+    font-size: 13px;
 }
 
 /*element:state*/
