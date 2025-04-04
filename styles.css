@@ -154,6 +154,7 @@ li{
     padding: 10px;
     border: 2px dashed grey;
     text-align: center;
+    list-style-type: none;
 }
 
 .numbers{
@@ -164,6 +165,7 @@ li{
     border: 2px dotted grey;
     text-align: center;
     font-size: 24px;
+    list-style-type: none;
 }
 
 .numbers-all{
@@ -173,6 +175,7 @@ li{
     padding: 10px;
     border: 2px dashed grey;
     text-align: center;
+    list-style-type: none;
 }
 
 .weekdays{
@@ -183,6 +186,7 @@ li{
     border: 2px dotted grey;
     text-align: center;
     font-size: 24px;
+    list-style-type: none;
 }
 
 .weekdays-all{
@@ -192,6 +196,7 @@ li{
     padding: 10px;
     border: 2px dashed grey;
     text-align: center;
+    list-style-type: none;
 }
 
 .months{
@@ -202,6 +207,7 @@ li{
     border: 2px dotted grey;
     text-align: center;
     font-size: 24px;
+    list-style-type: none;
 }
 
 .months-all{
@@ -211,6 +217,7 @@ li{
     padding: 10px;
     border: 2px dashed grey;
     text-align: center;
+    list-style-type: none;
 }
 div{
     color: rgba(6, 124, 75, 0.644)
@@ -222,12 +229,10 @@ footer{
     border: 2px;
     padding: 20px;
     content: 80%;
-
-
 }
 
 /*element:state*/
 
 figcaption a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
