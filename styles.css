@@ -122,7 +122,7 @@ p{
 }
 
 a{
-    color: pink;
+    color: rgb(225, 32, 65);
     text-decoration: none;
 }
 .Column1 {
@@ -152,6 +152,13 @@ li{
     font-weight: bold;
     font-size: 12px;
     these are examples of adding varying font sizes&styles*/
+}
+
+.allterms{
+    display: block;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .keyterms{
@@ -247,6 +254,8 @@ footer{
     padding: 10px;
     content: 80%;
     font-size: 11px;
+    position: relative;
+    bottom: 0;
 }
 
 /*element:state*/
