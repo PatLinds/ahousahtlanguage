@@ -147,7 +147,7 @@ a:hover{
 }
 
 li{ 
-    color: rgb(80, 153, 20)
+    color: rgb(74, 53, 135)
     /*font-style= normal
     font-weight: bold;
     font-size: 12px;
@@ -162,7 +162,7 @@ li{
 }
 
 .keyterms{
-    background-color: rgb(169, 243, 21);
+    background-color: rgb(149, 152, 230);
     width: 300px;
     height: 50px;
     padding: 10px;
@@ -172,7 +172,7 @@ li{
     }
 
 .key-termsall{
-    background-color: rgb(211, 236, 159);
+    background-color: hsl(228, 44%, 82%);
     width: 300px;
     height: 200px;
     padding: 10px;
@@ -182,7 +182,7 @@ li{
 }
 
 .numbers{
-    background-color: rgb(169, 243, 21);
+    background-color:rgb(149, 152, 230);
     width: 300px;
     height: 50px;
     padding: 10px;
@@ -193,7 +193,7 @@ li{
 }
 
 .numbers-all{
-    background-color: rgb(211, 236, 159);
+    background-color:hsl(228, 44%, 82%);
     width: 300px;
     height: 200px;
     padding: 10px;
@@ -203,7 +203,7 @@ li{
 }
 
 .weekdays{
-    background-color: rgb(169, 243, 21);
+    background-color:rgb(149, 152, 230);
     width: 300px;
     height: 50px;
     padding: 10px;
@@ -214,7 +214,7 @@ li{
 }
 
 .weekdays-all{
-    background-color: rgb(211, 236, 159);
+    background-color: hsl(228, 44%, 82%);
     width: 300px;
     height: 200px;
     padding: 10px;
@@ -224,7 +224,7 @@ li{
 }
 
 .months{
-    background-color: rgb(169, 243, 21);
+    background-color: rgb(149, 152, 230);
     width: 300px;
     height: 50px;
     padding: 10px;
@@ -235,7 +235,7 @@ li{
 }
 
 .months-all{
-    background-color: rgb(211, 236, 159);
+    background-color: hsl(228, 44%, 82%);
     width: 300px;
     height: 250px;
     padding: 10px;
