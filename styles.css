@@ -198,6 +198,7 @@ li{
     text-align: center;
     font-size: 24px;
     list-style-type: none;
+    float: left;
 }
 
 .numbers-all{
@@ -208,6 +209,19 @@ li{
     border: 2px dashed grey;
     text-align: center;
     list-style-type: none;
+    float: left;
+}
+
+
+.numbers-twenty{
+    background-color:hsl(228, 44%, 82%);
+    width: 300px;
+    height: 800px;
+    padding: 10px;
+    border: 2px dashed grey;
+    text-align: center;
+    list-style-type: none;
+    float: right;
 }
 
 .weekdays{
@@ -257,16 +271,27 @@ div{
 }
 
 .counting{
-    column-count: 2;
-    column-gap: 250px;
-    /* column-rule-width: 5px; */
-    column-fill: initial;
+    column-count: 3;
     column-gap: 5px;
-    position: flex;
+    position: relative;
     align-items: center;
-    /* align-content: center;
-    flex-direction: column-reverse; */
+    display: flexbox;
+    width: 100%;
+    height: 500px;
+    flex: 1;
 }
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
 
 .days{
     column-count: 2;
