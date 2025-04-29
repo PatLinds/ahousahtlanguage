@@ -198,7 +198,7 @@ li{
     text-align: center;
     font-size: 24px;
     list-style-type: none;
-    float: left;
+    /* float: left; */
 }
 
 .numbers-all{
@@ -209,7 +209,7 @@ li{
     border: 2px dashed grey;
     text-align: center;
     list-style-type: none;
-    float: left;
+    /* float: left; */
 }
 
 
@@ -221,7 +221,7 @@ li{
     border: 2px dashed grey;
     text-align: center;
     list-style-type: none;
-    float: right;
+    /* float: right; */
 }
 
 .weekdays{
@@ -245,7 +245,28 @@ li{
     list-style-type: none;
 }
 
+
 .months{
+    background-color:rgb(149, 152, 230);
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: 2px dotted grey;
+    text-align: center;
+    font-size: 24px;
+    list-style-type: none;
+}
+.months-all{
+    background-color: hsl(228, 44%, 82%);
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 2px dashed grey;
+    text-align: center;
+    list-style-type: none;
+}
+
+.colours{
     background-color: rgb(149, 152, 230);
     width: 300px;
     height: 50px;
@@ -256,7 +277,7 @@ li{
     list-style-type: none;
 }
 
-.months-all{
+.colours-all{
     background-color: hsl(228, 44%, 82%);
     width: 300px;
     height: 250px;
@@ -265,6 +286,7 @@ li{
     text-align: center;
     list-style-type: none;
 }
+
 
 div{
     color: rgba(6, 124, 75, 0.644)
@@ -281,10 +303,10 @@ div{
     flex: 1;
 }
 
-.column {
-    float: left;
-    width: 50%;
-  }
+/* .column {
+    /* float: left; */
+    /* width: 50%; */ 
+  /* } */
   
   /* Clear floats after the columns */
   /* .row:after {
