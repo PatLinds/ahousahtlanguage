@@ -11,11 +11,11 @@ body{
     max-height: 400px;
     font-family: "Karla", sans-serif, Arial;
     font-size: 16px;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
+    /* margin-left: 70px; */
+    width: fit-content;
+    height: fit-content;
     }
-}
+
 
 div.transbox {
     margin: 20px;
@@ -95,7 +95,10 @@ h3{
     font-style: normal;
     font-size: 16px;
     text-align: center;
-    max-width: 800px;  
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+
 }
 
 h4{
@@ -121,8 +124,9 @@ section h3 p {
 
 p{
     color: #51229e;
-    line-height: 1;
+    /* line-height: 1; */
     text-align: center;
+    /* width: fit-content; */
 }
 
 a{
@@ -247,6 +251,7 @@ li{
     text-align: center;
     list-style-type: none;
 }
+
 div{
     color: rgba(6, 124, 75, 0.644)
 }
@@ -259,6 +264,8 @@ div{
     column-gap: 5px;
     position: flex;
     align-items: center;
+    /* align-content: center;
+    flex-direction: column-reverse; */
 }
 
 .days{
@@ -269,6 +276,15 @@ div{
     column-gap: 5px;
     position: flex;
     align-items: center;
+
+}
+
+.alphabetimg{
+    text-align: center;
+    /* font-size: 10px; */
+    color: black;
+    align-items: center;
+    margin: 0 350px 0;
 }
 
 footer{
@@ -282,7 +298,7 @@ footer{
     bottom: 0;
 }
 
-/*element:state*/
+/* element:state */
 
 figcaption a:hover {
     text-decoration: underline;
