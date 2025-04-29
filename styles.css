@@ -204,24 +204,24 @@ li{
 .numbers-all{
     background-color:hsl(228, 44%, 82%);
     width: 350px;
-    height: 600px;
+    height: 800px;
     padding: 10px;
     border: 2px dashed grey;
     text-align: center;
     list-style-type: none;
-    float: left;
+    /* float: left; */
 }
 
 
 .numbers-twenty{
     background-color:hsl(228, 44%, 82%);
     width: 350px;
-    height: 700px;
+    height: 1000px;
     padding: 10px;
     border: 2px dashed grey;
     text-align: center;
     list-style-type: none;
-    float: right;
+    /* float: right; */
 }
 
 .weekdays{
@@ -294,13 +294,13 @@ div{
 
 .counting{
     column-count: 2;
-    column-gap: 5px;
+    column-gap: 50px;
     position: relative;
     align-items: center;
     display: inline-flex;
     flex-direction: row;
     width: 100%;
-    /* height: 500px; */
+    height: 1200px;
     flex: 1;
 }
 
