@@ -247,6 +247,13 @@ div{
     color: rgba(6, 124, 75, 0.644)
 }
 
+.counting{
+    column-count: 2;
+    /* column-gap: 70px; */
+    /* column-rule-width: 5px; */
+    column-fill: initial;
+    column-gap: 5px;
+}
 footer{
     background-color: rgb(189, 218, 189);
     margin: 10px 20px;
