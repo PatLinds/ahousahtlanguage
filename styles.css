@@ -49,6 +49,13 @@ h1{
     flex-wrap: wrap;
 }
 
+.buttons{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 h2{
     color:#13643c;
     font-style: normal;
@@ -57,8 +64,10 @@ h2{
 }
 
 .introaudio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin-left: 500px;
 }
 
 .famtree{
@@ -168,7 +177,7 @@ li{
 }
 
 .allterms{
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -176,7 +185,7 @@ li{
 
 .keyterms{
     background-color: rgb(149, 152, 230);
-    width: 300px;
+    width: 250px;
     height: 50px;
     padding: 10px;
     border: 2px dotted grey;
@@ -187,7 +196,7 @@ li{
 .key-termsall{
     background-color: hsl(228, 44%, 82%);
     width: 300px;
-    height: 300px;
+    height: 450px;
     padding: 10px;
     border: 2px dashed grey;
     text-align: center;
@@ -227,6 +236,13 @@ li{
     text-align: center;
     list-style-type: none;
     /* float: right; */
+}
+
+h5{
+    margin-top: 150px;
+    margin-bottom: 10px;
+    align-items: center;
+
 }
 
 .weekdays{
@@ -292,12 +308,33 @@ li{
     list-style-type: none;
 }
 
+.animals{
+    background-color: rgb(149, 152, 230);
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border: 2px dotted grey;
+    text-align: center;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.animals-all{
+    background-color: hsl(228, 44%, 82%);
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 2px dashed grey;
+    text-align: center;
+    list-style-type: none;
+}
+
 
 div{
     color: rgba(6, 124, 75, 0.644)
 }
 
-.counting{
+/* .counting{
     column-count: 2;
     column-gap: 50px;
     position: relative;
@@ -307,6 +344,16 @@ div{
     width: 100%;
     height: 1200px;
     flex: 1;
+} */
+
+.counting{
+    column-count: 2;
+    /* column-gap: 70px; */
+    /* column-rule-width: 5px; */
+    column-fill: initial;
+    column-gap: 5px;
+    position: flex;
+    align-items: center;
 }
 
 .column3 {
@@ -333,7 +380,16 @@ div{
     column-gap: 5px;
     position: flex;
     align-items: center;
+}
 
+.others{
+    column-count: 2;
+    /* column-gap: 70px; */
+    /* column-rule-width: 5px; */
+    column-fill: initial;
+    column-gap: 5px;
+    position: flex;
+    align-items: center;
 }
 
 .alphabetimg{

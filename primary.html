@@ -15,9 +15,11 @@
             </div>
           </div>
     </h1>
-        <button onclick="document.location='./index.html'">Home</button>
-        <button class="linktopage" onclick="document.location='./links.html'">External Links</button> 
-        <button class="linktopage" onclick="document.location='./tree.html'">Family Tree</button>
+        <section class="buttons">
+            <button onclick="document.location='./index.html'">Home</button>
+            <button class="linktopage" onclick="document.location='./links.html'">External Links</button> 
+            <button class="linktopage" onclick="document.location='./tree.html'">Family Tree</button>
+        </section>
         <h2>Alphabet</h2>
         <p>Follow the <a href="https://www.tla-o-qui-aht.org/nuuchahnulth-alphabet" target="_blank">link</a> to hear Carrie Little pronounce the letters of the alphabet. <br> She tells each letter, what it sounds like, and uses it in a nučanuł word.</p>
         <img src="./images/ahousaht alphabet.png" alt="ahousaht dialect alphabet" height="300px" width="400" class="alphabetimg"> 
@@ -47,10 +49,11 @@
                 <li>nineteen - ḥayu ʔuḥiiš c̓awaakʷał</li>
                 <li>twenty - c̓aaqic</li>
                 <br> 
-                To carry on beyond ḥayu to 19, you would add "ʔuḥʔiiš" to the tenth number - i.e. ḥayu ʔuḥiiš c̓awaak = eleven.  To go beyond 20, you would say "c̓aaqic ʔuḥiiš"
+                To carry on beyond ḥayu to 19, you would add "ʔuḥʔiiš" to the tenth number - i.e. ḥayu ʔuḥiiš c̓awaak = eleven.  
             </ul>
             <ul class="numbers-twenty">
-                <h4 class="numbers" id="numbers-twenty" class="column4">20 and beyond</h4>
+                <h4 class="numbers" id="numbers-twenty" class="column4">20 and Beyond</h4>
+                <h5>To go beyond 20, you would say "c̓aaqic ʔuḥiiš"</h5>
                 <li>twenty one - c̓aqiic ʔuḥiiš c̓awaak</li>
                 <li>twenty two - c̓aqiic ʔuḥiiš ʔaƛa</li>
                 <li>twenty three - c̓aqiic ʔuḥiiš qacc̓a</li>
@@ -73,11 +76,11 @@
                 <li>forty - ʔaƛiiq</li>
                 <br>
                 <br>
-                the "tenth" numbers are set to even numbers, so we would say 
-                <li>forty = ʔaƛiiq</li>
-                <li>sixty = qacc̓iiq</li>
-                <li>eighty = muyiiq</li>
-                <li>one hundred = sučiiq</li>
+                the "tenth" numbers are set to even numbers and doubled, so we would say 
+                <li>forty = <strong>ʔaƛ</strong>iiq (2+2 in the tenth spot)</li>
+                <li>sixty = <strong>qacc̓</strong>iiq (3+3 in the tenth spot)</li>
+                <li>eighty = <strong>mu</strong>yiiq (4+4 in the tenth spot)</li>
+                <li>one hundred = <strong>suč</strong>iiq (5+5 in the tenth spot)</li>
                 <br>
                 we would then add "ʔuḥiiš ḥayu" for the odd "tenth" numbers
                 <li>thirty = c̓aqiic ʔuḥiiš ḥayu</li>
@@ -94,53 +97,64 @@
             </ul>
         </div>
         <div>
-        <h2>Days of the Week and Months of the Year</h2>
+    <h2>Days of the Week and Months of the Year</h2>
         <p>there's sunday and there's monday, there's tuesday and there's wednesday, there's thursday and there's friday, and then there's saturday!🎶♪</p>
-            <section class="days">
-                <ul class="weekdays-all">
-                    <h4 class="weekdays" id="weekdays">Days of the Week</h4>
-                    <li>Sunday - saanti</li>
-                    <li>Monday - n̓upčiił</li>
-                    <li>Tuesday - ʔaƛčiił</li>
-                    <li>Wednesday - qacc̓učił</li>
-                    <li>Thursday - muučiił</li>
-                    <li>Friday - suč̓acił</li>
-                    <li>Saturday - n̓upučił</li>
-                </ul>    
-                <br>
-                <br>
-                <ul class="months-all">     
-                <h4 class="months" id="months-all">Months of the Year</h4>
-                    <li>January- yaqʷaḥuʔas</li>
-                    <li>February - wiisaasumł</li>
-                    <li>March - ʕaayaqumł</li>
-                    <li>April - huaaqumł</li>
-                    <li>May - ʕuuƛʕuuqumł</li>
-                    <li>June - t̓aakƛaatasumł</li>
-                    <li>July - ʔiicuuš</li>
-                    <li>August - ʔiiḥ</li>
-                    <li>September - naaʔał</li>
-                    <li>October - č̓iyaaqumł</li>
-                    <li>November - šiƛaatisumł</li>
-                    <li>December - t̓iʕasumł</li>
+        <section class="days">
+            <ul class="weekdays-all">
+                <h4 class="weekdays" id="weekdays">Days of the Week</h4>
+                <li>Sunday - saanti</li>
+                <li>Monday - n̓upčiił</li>
+                <li>Tuesday - ʔaƛčiił</li>
+                <li>Wednesday - qacc̓učił</li>
+                <li>Thursday - muučiił</li>
+                <li>Friday - suč̓acił</li>
+                <li>Saturday - n̓upučił</li>
             </ul>    
-            </section>
-            <section>
-                <ul class="colours-all">
-                    <h4 class="colours" id="colours-all">Colours</h4>
-                    <li>red - ƛ̓iḥuk</li>
-                    <li>yellow - kʷamaqak</li>
-                    <li>orange - pipick̓uk</li>
-                    <li>green - kistaqak</li>
-                    <li>blue - kin̓ucak</li>
-                    <li>purple - kin̓ucp̓iqak</li>
-                    <li>black - tupkak</li>
-                    <li>white - ƛ̓isuk</li>
-                    <li>gray - tupkp̓iqak</li>
-                    <li>pink - ƛ̓iḥp̓iqak</li>
-                    <li>brown - ḥicp̓iqak</li>
-                </ul>
-            </section>        
+            <br>
+            <br>
+            <ul class="months-all">     
+            <h4 class="months" id="months-all">Months of the Year</h4>
+                <li>January- yaqʷaḥuʔas</li>
+                <li>February - wiisaasumł</li>
+                <li>March - ʕaayaqumł</li>
+                <li>April - huaaqumł</li>
+                <li>May - ʕuuƛʕuuqumł</li>
+                <li>June - t̓aakƛaatasumł</li>
+                <li>July - ʔiicuuš</li>
+                <li>August - ʔiiḥ</li>
+                <li>September - naaʔał</li>
+                <li>October - č̓iyaaqumł</li>
+                <li>November - šiƛaatisumł</li>
+                <li>December - t̓iʕasumł</li>
+        </ul>    
+        </section>
+    <h2>Other fun stuff</h2>
+        <section class="others">
+            <ul class="colours-all">
+                <h4 class="colours" id="colours-all">Colours</h4>
+                <li>red - ƛ̓iḥuk</li>
+                <li>yellow - kʷamaqak</li>
+                <li>orange - pipick̓uk</li>
+                <li>green - kistaqak</li>
+                <li>blue - kin̓ucak</li>
+                <li>purple - kin̓ucp̓iqak</li>
+                <li>black - tupkak</li>
+                <li>white - ƛ̓isuk</li>
+                <li>gray - tupkp̓iqak</li>
+                <li>pink - ƛ̓iḥp̓iqak</li>
+                <li>brown - ḥicp̓iqak</li>
+            </ul>
+            <ul class="animals-all">
+                <h4 class="animals" id="animals-all">animals</h4>
+                <li>eagle</li>
+                <li>dog</li>
+                <li>cat</li>
+                <li>rat</li>
+                <li>crow</li>
+                <li>seagull</li>
+                <li>cougar</li>
+            </ul>
+        </section>        
     </div>
     <footer id="footer">
         <p>this website is made by yacuusuƛ/ƛicitaksup
