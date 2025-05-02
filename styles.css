@@ -266,7 +266,6 @@ h5{
     list-style-type: none;
 }
 
-
 .months{
     background-color:rgb(149, 152, 230);
     width: 250px;
@@ -329,6 +328,26 @@ h5{
     list-style-type: none;
 }
 
+.weather{
+    background-color:rgb(149, 152, 230);
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border: 2px dotted grey;
+    text-align: center;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.weather-all{
+    background-color: hsl(228, 44%, 82%);
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 2px dashed grey;
+    text-align: center;
+    list-style-type: none;
+}
 
 div{
     color: rgba(6, 124, 75, 0.644)
