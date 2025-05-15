@@ -110,6 +110,13 @@ h2{
     margin: 20px;
 }
 
+.twinpics{
+    align-items: center;
+    /* display: flex; */
+    /* flex: row */
+    /* justify-content: center; */
+}
+
 h3{
     color: #119955;
     font-style: normal;
